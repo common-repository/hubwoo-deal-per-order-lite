@@ -1,0 +1,163 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wrap.hubwoo-deal-lite{
+  background: #fff;
+  padding: 0 10px;
+  border: 1px solid #bababa;
+  border-radius: 6px;
+}
+.hubwoo_deal_lite_oauth_span {
+  display: block;
+  margin: 10px 0;
+}
+span.hubwoo_deal_lite_oauth_span label {
+  background-color: #d9edf7 ;
+  border-left: 3px solid #0073aa ;
+  color: #31708f ;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  margin: -4px 0 0;
+  padding: 0 30px 0 15px;
+  position: relative;
+}
+span.hubwoo_deal_lite_oauth_span label::after {
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #0073aa ;
+  border-top: 8px solid transparent;
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#hubwoo-deal-lite-loader.loading-style-bg img {
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+#hubwoo-deal-lite-loader.loading-style-bg {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+}
+#hubwoo-deal-pipeline-setup-process .popupwrap .hubwoo-deal-lite-message-area{
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 40px;
+}
+#hubwoo-deal-pipeline-setup-process .popupwrap {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  display: block;
+  left: 0;
+  opacity: 1;
+  padding: 30px;
+  position: relative;
+  right: 0;
+  height: 309px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#hubwoo-deal-pipeline-setup-process{
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.progress-bar {
+  background-color: #337ab7;
+  border-radius: 8px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+  color: #ffffff;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+  min-height: 24px;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+}
+.popupwrap > p {
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+}
+.progress {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 30px;
+}
+.hub_deal_lite_pop_up_wrap {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.hub_deal_lite_pop_up_wrap p {
+  color: #232323;
+  font-size: 17px;
+  text-align: center;
+}
+.hub_deal_lite_pop_up_wrap .pop_up_sub_wrap {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  left: 0;
+  margin: 0 auto;
+  max-width: 450px;
+  min-height: 228px;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hub_deal_lite_pop_up_wrap .pop_up_sub_wrap .button_wrap {
+  margin-top: 35px;
+  text-align: center;
+}
+.hub_deal_lite_pop_up_wrap .pop_up_sub_wrap .button_wrap a {
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  padding: 10px;
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto 15px;
+}
+.hub_deal_lite_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(1) {
+  background-color: #26488f;
+}
+.hub_deal_lite_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(2) {
+  text-decoration: underline;
+  color: #252525;
+}
